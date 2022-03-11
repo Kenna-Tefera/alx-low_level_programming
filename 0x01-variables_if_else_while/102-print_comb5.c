@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main -prints two two digit 
+* main - prints two two digit
 *
 * Return: 0
 */
