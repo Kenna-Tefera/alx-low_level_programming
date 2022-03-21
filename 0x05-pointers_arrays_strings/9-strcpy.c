@@ -26,16 +26,16 @@ char *_strcpy(char *dest, char *src)
 
 /**
   * string_length - finds the length of a string.
-  * Return: length of c.
+  * Return: length
   * @pointer: pointer.
   */
 int string_length(char *pointer)
 {
-	int c = 0;
+	int j = 0;
 
-	while (*(pointer + c) != '\0')
+	while (*(pointer + j) != '\0')
 	{
-		c++;
+		j++;
 	}
-	return (c);
+	return (j);
 }
