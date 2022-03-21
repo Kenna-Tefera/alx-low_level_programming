@@ -24,9 +24,11 @@ void print_rev(char *s)
   */
 int string_length(char *pointer)
 {
+	int c = 0;
 
-	for ( int j =0;*(pointer + j) != '\0'; j++)
+	while (*(pointer + c) != '\0')
 	{
+		c++;
 	}
-	return (j);
+	return (c);
 }
